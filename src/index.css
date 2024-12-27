@@ -1,0 +1,138 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #0a192f; /* Dark background */
+  color: #ccd6f6; /* Light text color */
+
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #020c1b;
+  padding: 20px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: #64ffda; /* Accent color */
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ccd6f6;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #64ffda;
+  color: #0a192f;
+}
+
+/* Main content styling */
+main {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #64ffda;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  color: #8892b0; /* Muted text color */
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #64ffda;
+  text-decoration: none;
+  margin: 10px 0;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Icon styling */
+.contact-info a svg {
+  margin-right: 8px;
+}
+
+/* Add this CSS to your stylesheet */
+.nav-buttons {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  align-items: center; /* Center buttons vertically */
+  gap: 5rem; /* Adds spacing between the buttons */
+
+}
+
+.nav-buttons button {
+  padding: 0.75rem 1.5rem; /* Adjust padding for buttons */
+  font-size: 1rem; /* Adjust font size */
+  border-radius: 0.375rem; /* Rounded corners */
+  background-color: transparent;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+  color: white; /* Change text color on hover */
+}
+
+
+/* Container for the navigation */
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Style for the navigation buttons */
+.nav-button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 1rem;
+}
+
+/* Hover effect for buttons */
+.nav-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Active/selected button state */
+.nav-button.active {
+  background-color: #e0e0e0;
+}
